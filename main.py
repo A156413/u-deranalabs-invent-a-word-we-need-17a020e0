@@ -1,6 +1,8 @@
 """Entry for make.fun "Invent a Word We Need".
 
-Writes the coined word and its one-line definition to entry.txt.
+Coins "nameblank": the sudden blank when you forget someone's name
+halfway through introducing them. Writes the word and its one-line
+definition to entry.txt.
 Deterministic: no network, no randomness, no clock.
 """
 
@@ -8,8 +10,8 @@ import os
 import stat
 
 ENTRY = (
-    "doorjog: The awkward half-jog you break into when someone holds "
-    "a door open for you from too far away."
+    "nameblank: The sudden blank when you forget someone's name "
+    "mid-introduction."
 )
 
 
